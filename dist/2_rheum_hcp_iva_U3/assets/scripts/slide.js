@@ -1,0 +1,1 @@
+"use strict";function _classCallCheck(n,c){if(!(n instanceof c))throw new TypeError("Cannot call a class as a function")}$(function(){var n,c,t=function e(){_classCallCheck(this,e),n=$("#rheum_hcp_iva_U3_2"),c="ontouchend"in document.documentElement?"touchend":window.navigator.pointerEnabled?"pointerup":"click"};new t});

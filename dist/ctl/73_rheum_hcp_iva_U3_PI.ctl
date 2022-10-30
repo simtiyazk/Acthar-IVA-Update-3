@@ -1,0 +1,5 @@
+USER=
+PASSWORD=
+FILENAME=73_rheum_hcp_iva_U3_PI.zip
+Name=73_rheum_hcp_iva_U3_PI
+Disable_Actions_vod__c=Pinch_To_Exit_vod;Rotation Lock;Zoom
