@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* SCSS Document */
+
+@import "../shared/styles/variables";
+@import "../shared/styles/mixins";
+
+
+/********** Slide Specific Styles *********/
+
+#rheum_hcp_iva_U3_9 {
+	.content {
+      background: url('../images/09.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+   }
+   .references-content {
+      background: url('../images/09_Reference.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x: 6px;
+   }
+
+   .reference-overlay {
+      width: 388px;
+   }
+
+   .next-button {
+      position: absolute;
+      top: 549px;
+      right: 34px;
+   }
+   .openLabel-button{
+      position: absolute;
+      top: 278px;
+      right: 624px;
+      width: 350px;
+      height: 67px;
+   }
+   .prospective-button{
+      position: absolute;
+      top: 428px;
+      left: 51px;
+      width: 350px;
+      height: 67px;
+   }
+   .DMPMdummy{
+      margin: 0px;
+      position: relative;
+      width: 124px;
+      height: 36px;
+      background-color: #e9e9e9;
+      left: 0px;
+      border-radius: 5px;
+   }
+   .subClick1{
+      color: #6b478e;
+      font-family: '#{$font-Archivo-Bold}';
+   }
+}
+

@@ -1,0 +1,27 @@
+.tabs {
+   width: 1024px;
+   height: 60px;
+   display: block;
+   position: absolute;
+   top: 54px;
+   z-index: 1;
+
+   .tab {
+      width: 206px;
+      height: 60px;
+      display: block;
+      position: absolute;
+
+      &.study-design {
+         left: 255px;
+      }
+
+      &.results {
+         left: 505px;
+      }
+
+      &.case-studies {
+         left: 745px;
+      }
+   }
+}

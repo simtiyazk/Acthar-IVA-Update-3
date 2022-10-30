@@ -1,0 +1,57 @@
+.references {
+   width: 1024px;
+   height: 768px;
+   position: absolute;
+   top: 0;
+   display: none;
+
+   &-content {
+      display: none;
+      width: 682px;
+      height: 768px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 3;
+   }
+
+   .reference-overlay {
+      top: 0;
+      left: 0;
+      width: 382px;
+      height: 768px;
+      z-index: 4;
+      position: absolute;
+   }
+
+   &.expanded {
+      display: block;
+      > .btn {
+         display: none;
+      }
+      .references-container {
+         > .btn {
+            display: block;
+         }
+      }
+      .references-content {
+         display: block;
+      }
+   }
+}
+
+.reference-btn {
+   background: url('../../shared/images/references.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 39px;
+   height: 154px;
+   position: absolute;
+   right: 0;
+   top: 249px;
+   z-index: 2;
+
+   &.hide {
+      display: none;
+   }
+}

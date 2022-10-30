@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* SCSS Document */
+
+@import "../shared/styles/variables";
+@import "../shared/styles/mixins";
+
+
+/********** Slide Specific Styles *********/
+
+#rheum_hcp_iva_U3_8 {
+	.content {
+      background: url('../images/08.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+   }
+   .references-content {
+      background: url('../images/08_Reference.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x: 6px;
+   }
+
+   .reference-overlay {
+      width: 388px;
+   }
+
+   .next-button {
+      position: absolute;
+      top: 549px;
+      right: 34px;
+   }
+
+   .pred-popup-btn {
+      position: absolute;
+      width: 521px;
+      height: 328px;
+      top: 173px;
+      left: 398px;
+  }
+   #pred {
+      width: 768px;
+      top: 45.7%;
+      .close {
+         right: 10px;
+         top: 4px;
+      }
+   }
+
+   .stl-popup-btn {
+      position: absolute;
+      width: 252px;
+      height: 37px;
+      top: 221px;
+      right: 99px;
+   }
+
+   #stl {
+      width: 558px;
+      top: 48%;
+      .close {
+         right: 10px;
+         top: 4px;
+      }
+   }
+   .studydesign-popup-btn {
+      position: absolute;
+      width: 236px;
+      height: 31px;
+      top: 466px;
+      left: 50px;
+  }
+   #studydesign {
+      width: 556px;
+      top: 45.7%;
+      height: 303px;
+      .close {
+         right: 10px;
+         top: 4px;
+      }
+   }
+   .popup{
+      min-height: unset;
+   }
+   .dm-pm,.sle,.symp-sarcoidosis,.ra,.dosing,.support{
+      top: 0px;
+   }
+   .potential-moa{
+      background-color: #e9e9e9;
+      color: #ff5000;
+      font-family: '#{$font-Archivo-Bold}';
+   }
+}
+

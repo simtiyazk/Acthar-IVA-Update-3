@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* SCSS Document */
+
+@import "../shared/styles/variables";
+@import "../shared/styles/mixins";
+
+
+/********** Slide Specific Styles *********/
+
+#rheum_hcp_iva_U3_49 {
+	.content {
+      background: url('../images/61.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+    }
+    .next-button {
+      position: absolute;
+      top: 549px;
+      right: 34px;
+   }
+    .tabs{
+      .study-design{
+         display: none;
+      }
+   }
+
+     .references-content {
+        background: url('../images/61_Refs-Expanded.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+     }
+     .dm-pm,.sle{
+      top: 0px;
+   }
+   .SSdummy{
+      margin: 0px;
+      position: relative;
+      width: 338px;
+      height: 36px;
+      background-color: #e9e9e9;
+      left: 0px;
+      border-radius: 5px;
+   }
+   .symp-sarcoidosis{
+      p{
+         width: 323px;
+      }
+   }
+   .subClick3{
+      color: #003a6f;
+      font-family: '#{$font-Archivo-Bold}';
+
+   }
+}
+

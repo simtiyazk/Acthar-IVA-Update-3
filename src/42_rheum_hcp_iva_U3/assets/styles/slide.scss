@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* SCSS Document */
+
+@import "../shared/styles/variables";
+@import "../shared/styles/mixins";
+
+
+/********** Slide Specific Styles *********/
+
+#rheum_hcp_iva_U3_42 {
+	.content {
+      background: url('../images/42.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+   }
+
+   .dm-pm{
+      top: 0px;
+   }
+   .SLEdummy{
+      margin: 0px;
+      position: relative;
+      width: 92px;
+      height: 36px;
+      background-color: #e9e9e9;
+      left: 0px;
+      border-radius: 5px;
+   }
+   .subClick2{
+      color: #279989;
+      font-family: '#{$font-Archivo-Bold}';
+   }
+   .references-content {
+      background: url('../images/42_Refs-Expanded.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x: 6px;
+   }
+
+   .reference-overlay {
+      width: 388px;
+   }
+
+   .next-button {
+      position: absolute;
+      top: 549px;
+      right: 34px;
+   }
+   .InactiveHeader_35{
+      position: absolute;
+      top: 54px;
+      left: 0px;
+      height: 57px;
+      width: 215px;
+      z-index: 8;
+   }
+   .menuDropdown_35{
+      background: url(../images/4.0_Dropdown-Expanded.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 215px;
+      display: none;
+      position: absolute;
+      left: 0px;
+      top: 54px;
+      height: 303px;
+      .activeHeader_35{
+         width: 215px;
+         height: 54px;
+         top: 0px;
+         position: relative;
+         z-index: 9;
+      }
+      .clickArea1_35{
+         width: 215px;
+         height: 84px;
+         top: 45px;
+         position: relative;
+         display: block;
+      }
+      .clickArea3_35{
+         width: 215px;
+         height: 38px;
+         top: 102px;
+         position: relative;
+         display: block;
+      }
+   }
+}
+

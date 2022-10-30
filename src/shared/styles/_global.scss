@@ -1,0 +1,175 @@
+.show-invisible {
+   background-color: none !important;
+   opacity: 1;
+}
+
+.show-blur {
+   filter: blur(10px) grayscale(20%);
+  -webkit-filter: blur(10px) grayscale(20%);
+}
+
+.custom-overlay {
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+
+    &.visible{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+/* MMT Study1 & Study2 */
+.mmt-patients{
+   float: left;
+   list-style: none;
+   position: relative;
+   top: 213px;
+   left: 50px;
+
+   li{
+      padding: 9px 17px;
+      margin: 11px 8px 0 0;
+      border-radius: 30px;
+      background: #6b478e;
+      opacity: 0.7;
+      font-size: 14px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 16px;
+      letter-spacing: normal;
+      color: #ffffff;
+      width: 151px;
+      height: 48px;
+
+      span{
+         display: block;
+      }
+
+   }
+   .actv-mmt-study1{
+      background: #ededed;
+      color: #4a4a4a;
+      opacity: 1;
+      font-family: $font-Archivo-SemiBold;
+
+      span{
+         font-family: $font-Archivo-Regular;
+      }
+   }
+
+}
+.baseScore, .endScore, .after-treat-btn{
+   padding: 17px;
+   margin: 380px 0 0 552px;
+   position: absolute;
+   z-index: 2;
+   border-radius: 30px;
+   background: $gray;
+   opacity: 0.7;
+   font-size: 14px;
+   font-family: $font-Archivo-SemiBold;
+   font-weight: 500;
+   text-align: center;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.07;
+   letter-spacing: normal;
+   color: $font-color;
+   width: 143px;
+   height: 46px;
+}
+.next-button {
+   position: absolute;
+   top: 552px;
+   right: 34px;
+}
+/* Section-wise menu-toggle */
+.InactiveHeader_49{
+   position: absolute;
+   top: 54px;
+   left: 0px;
+   height: 57px;
+   width: 215px;
+   z-index: 8;
+}
+// .dp-pm-sect.menuDropdown_35{
+//    background: url('../images/dp-pm_Dropdown-Expanded.png');
+//    background-repeat: no-repeat;
+//    background-size: contain;
+//    width: 215px;
+//    display: none;
+//    position: absolute;
+//    left: 0px;
+//    top: 108px;
+//    height: 302px;
+//    .activeHeader_35{
+//       width: 215px;
+//       height: 54px;
+//       top: -54px;
+//       position: relative;
+//       z-index: 9;
+//    }
+//    .clickArea1{
+//       width: 215px;
+//       height: 58px;
+//       top: -14px;
+//       position: relative;
+//       display: block;
+//    }
+//    .clickArea2{
+//       width: 215px;
+//       height: 41px;
+//       top: -11px;
+//       position: relative;
+//       display: block;
+//    }
+//    .clickArea3{
+//       width: 215px;
+//       height: 46px;
+//       top: -9px;
+//       position: relative;
+//       display: block;
+//    }
+//    .clickArea4{
+//       width: 215px;
+//       height: 50px;
+//       top: 32px;
+//       position: relative;
+//       display: block;
+//    }
+// }
+
+.ss-sect.menuDropdown_49{
+   background: url('../images/ss_Dropdown-Expanded.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 215px;
+   display: none;
+   position: absolute;
+   left: 0px;
+   top: 54px;
+   height: 212px;
+   .activeHeader_49{
+      width: 215px;
+      height: 54px;
+      top: 0px;
+      position: relative;
+      z-index: 9;
+   }
+   .clickArea1{
+      width: 215px;
+      height: 46px;
+      top: 42px;
+      position: relative;
+      display: block;
+   }
+   .clickArea2{
+      width: 215px;
+      height: 47px;
+      top: 46px;
+      position: relative;
+      display: block;
+   }
+}

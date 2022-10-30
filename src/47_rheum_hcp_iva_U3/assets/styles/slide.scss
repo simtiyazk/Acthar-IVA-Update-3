@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* SCSS Document */
+
+@import "../shared/styles/variables";
+@import "../shared/styles/mixins";
+
+
+/********** Slide Specific Styles *********/
+
+#rheum_hcp_iva_U3_47 {
+	.content {
+      background: url('../images/45_107.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+      .clickableContent{
+         position: absolute;
+         top: 307px;
+         left: 47px;
+         height: 301px;
+         width: 674px;
+         border-radius: 15px;
+         ul{
+            list-style-type: none;
+            li{
+               float: left;
+               width: 167px;
+               height: 48px;
+               text-align: center;
+               padding: 17px 0px;
+               // font-family: '#{$font-Archivo-Regular}';
+               font-family: '#{$font-Archivo-SemiBold}';
+               font-size: 14px;
+               // font-weight: 500;
+               border:1px solid #ffffff;
+               letter-spacing: -0.5px;
+            }
+            .pNine{
+               padding: 7px 0px;
+               line-height: 17px;
+            }
+         }
+      }
+      .content-container,#content100 {
+         position: absolute;
+         top: 120px;
+         left: 10px;
+         .commonPos1{
+            position: absolute;
+            left: 37px;
+         }
+         .commonPos2{
+            position: absolute;
+            top: 31px;
+            left: 603px;
+            font-family: '#{$font-Archivo-Regular}';
+            font-size: 80px;
+            font-weight: 700;
+            color: #484848;
+         }
+         .commonPos3{
+            position: absolute;
+            left: 37px;
+            top:-1px;
+         }
+     }
+      .content-container div {
+         display: none;
+     }
+     .resetBtn{
+      width: 114px;
+      height: 34px;
+      position: absolute;
+      left: 582px;
+      top: 242px;
+     }
+     #total{
+      position: absolute;
+      top: 156px;
+      left: 616px;
+      font-family: "Archivo-Bold";
+      font-size: 70px;
+      color: #484848;
+     }
+
+     #human {
+      position: absolute;
+      top: 122px;
+      left: 12px;
+     }
+     .human-content-container{
+      position: absolute;
+      top: 100px;
+      left: 750px;
+      #humanC1,#humanC2,#humanC3,#humanC5,#humanC6,#humanC7,#humanC22{
+         position: absolute;
+         left: 83px;
+         top: 18px;
+      }
+      #humanC4{
+         position: absolute;
+         left: 80px;
+         top: 37px;
+      }
+      #humanC8,#humanC11,#humanC12,#humanC14,#humanC15,#humanC16,#humanC20,#humanC21,#humanC23,#humanC24{
+         position: absolute;
+         left: 19px;
+         top: 26px;
+      }
+      #humanC9{
+         position: absolute;
+         left: 31px;
+         top: 126px;
+      }
+      #humanC10{
+         position: absolute;
+         left: 47px;
+         top: 96px;
+      }
+      #humanC13{
+         position: absolute;
+         left: 69px;
+         top: 124px;
+      }
+      #humanC17{
+         position: absolute;
+         left: 83px;
+         top: 48px;
+      }
+      #humanC18{
+         position: absolute;
+         left: 68px;
+         top: 91px;
+      }
+      #humanC19{
+         position: absolute;
+         left: 90px;
+         top: 99px;
+      }
+      div{
+         display: none;
+      }
+     }
+   }
+
+   // .menu-items {
+   //    background: url('../images/Menu_03.png');
+   //    background-repeat: no-repeat;
+   //    background-size: contain;
+   // }
+
+   .references-content {
+      background: url('../images/45_Refs-Expanded.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x: 6px;
+   }
+
+   .reference-overlay {
+      width: 388px;
+   }
+
+   .next-button {
+      position: absolute;
+      top: 549px;
+      right: 34px;
+   }
+   .case-studies{
+      display: none;
+   }
+   .Clink{
+      color: #ffffff;
+      background-color: rgba(34, 153, 137, 0.7);
+   }
+  .dm-pm{
+   top: 0px;
+}
+.SLEdummy{
+   margin: 0px;
+   position: relative;
+   width: 92px;
+   height: 36px;
+   background-color: #e9e9e9;
+   left: 0px;
+   border-radius: 5px;
+}
+.subClick2{
+   color: #279989;
+   font-family: '#{$font-Archivo-Bold}';
+}
+.InactiveHeader_35{
+   position: absolute;
+   top: 54px;
+   left: 0px;
+   height: 57px;
+   width: 215px;
+   z-index: 8;
+}
+.menuDropdown_35{
+   background: url(../images/4.0_Dropdown-Expanded.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 215px;
+   display: none;
+   position: absolute;
+   left: 0px;
+   top: 54px;
+   height: 303px;
+   .activeHeader_35{
+      width: 215px;
+      height: 54px;
+      top: 0px;
+      position: relative;
+      z-index: 9;
+   }
+   .clickArea1_35{
+      width: 215px;
+      height: 84px;
+      top: 45px;
+      position: relative;
+      display: block;
+   }
+   .clickArea3_35{
+      width: 215px;
+      height: 38px;
+      top: 102px;
+      position: relative;
+      display: block;
+   }
+}
+}
+

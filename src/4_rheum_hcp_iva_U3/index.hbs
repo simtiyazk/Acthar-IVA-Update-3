@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<title>veeva-slide</title>
+
+	<!-- build:css ../shared/styles/main.css -->
+	<!-- inject:css -->
+	<!-- endinject -->
+   <link rel="stylesheet" href="../shared/styles/main.css">
+   <!-- endbuild -->
+   <!-- build:css assets/styles/slide.css -->
+   <link rel="stylesheet" href="assets/styles/slide.css" />
+   <!-- endbuild -->
+</head>
+
+<body>
+<main id="rheum_hcp_iva_U3_4" class="slide">
+
+	{{> header }}
+	
+	<div class="content">
+		<a class="popup-open moa-video show-invisible" data-target="moa-video"></a>
+
+		<a class="module-open circle_popup_link t-cells show-invisible" data-target="t-cells"></a>
+		<a class="module-open circle_popup_link b-cells show-invisible" data-target="b-cells"></a>
+		<a class="module-open circle_popup_link cykotines show-invisible" data-target="cykotines"></a>
+		<a class="module-open circle_popup_link macrophages show-invisible" data-target="macrophages"></a>
+		<a class="module-open circle_popup_link d-cells show-invisible" data-target="d-cells"></a>
+      	<a class="module-open circle_popup_link osteoclasts show-invisible" data-target="osteoclasts"></a>
+      	<a class="module-open circle_popup_link monocytes show-invisible" data-target="monocytes"></a>
+      	<a class="module-open circle_popup_link fibroblasts show-invisible" data-target="fibroblasts"></a>
+	  	<a class="module-open circle_popup_link epithelial show-invisible" data-target="epithelial"></a>
+
+		<a class="next-button orange show-invisible" data-target="5_rheum_hcp_iva_U3"></a>
+	</div>
+	<div class="popups-container">
+		<div class="popup-overlay"></div>
+		{{>popupVideo popupId="moa-video" videoUrl="assets/images/Rheum_CCR_2019_Booth_MOA_Holocube" }}
+	</div>
+	{{> isi }}
+	<div class="references">
+		<div class="references-container">
+			<div class="reference-overlay show-invisible"></div>
+			<div class="references-content">
+				<div class="over-hidd" id="style-1">
+					<div class="scrollable-content"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="reference-btn show-invisible"></div>
+	<div class="modules-container">
+		{{>interactiveModule moduleId="t-cells" imgUrl="assets/images/04_popup1.png"}}
+		{{>interactiveModule moduleId="b-cells" imgUrl="assets/images/04_popup2.png"}}
+		{{>interactiveModule moduleId="cykotines" imgUrl="assets/images/04_popup3.png"}}
+		{{>interactiveModule moduleId="macrophages" imgUrl="assets/images/04_popup4.png"}}
+		{{>interactiveModule moduleId="d-cells" imgUrl="assets/images/04_popup5.png"}}
+      	{{>interactiveModule moduleId="osteoclasts" imgUrl="assets/images/04_popup6.png"}}
+		{{>interactiveModule moduleId="monocytes" imgUrl="assets/images/04_popup7.png"}}
+		{{>interactiveModule moduleId="fibroblasts" imgUrl="assets/images/04_popup8.png"}}
+		{{>interactiveModule moduleId="epithelial" imgUrl="assets/images/04_popup9.png"}}
+		<a class="module-open circle_popup_link t-cells show-invisible" data-target="t-cells"></a>
+		<a class="module-open circle_popup_link b-cells show-invisible" data-target="b-cells"></a>
+		<a class="module-open circle_popup_link cykotines show-invisible" data-target="cykotines"></a>
+		<a class="module-open circle_popup_link macrophages show-invisible" data-target="macrophages"></a>
+		<a class="module-open circle_popup_link d-cells show-invisible" data-target="d-cells"></a>
+      	<a class="module-open circle_popup_link osteoclasts show-invisible" data-target="osteoclasts"></a>
+      	<a class="module-open circle_popup_link monocytes show-invisible" data-target="monocytes"></a>
+      	<a class="module-open circle_popup_link fibroblasts show-invisible" data-target="fibroblasts"></a>
+	  	<a class="module-open circle_popup_link epithelial show-invisible" data-target="epithelial"></a>
+	</div>
+</main>
+
+<!-- build:js ../shared/scripts/main.js -->
+<!-- inject:js -->
+<!-- endinject -->
+<script src="../shared/scripts/jquery.js"></script>
+<script src="../shared/scripts/libs.js"></script>
+<script src="../shared/scripts/libs/veeva-library.js"></script>
+<script src="../shared/scripts/libs/veeva-utils.js"></script>
+<script src="../shared/scripts/menuHandling.js"></script>
+<script src="../shared/scripts/main.js"></script>
+<!-- endbuild -->
+
+<!-- build:js assets/scripts/slide.js -->
+<script src="assets/scripts/slide.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<title>veeva-slide</title>
+
+	<!-- build:css ../shared/styles/main.css -->
+	<!-- inject:css -->
+	<!-- endinject -->
+   <link rel="stylesheet" href="../shared/styles/main.css">
+   <!-- endbuild -->
+   <!-- build:css assets/styles/slide.css -->
+   <link rel="stylesheet" href="assets/styles/slide.css" />
+   <!-- endbuild -->
+</head>
+
+<body>
+<main id="rheum_hcp_iva_U3_31" class="slide">
+   {{> header 
+      tab1="30_rheum_hcp_iva_U3"
+      tab2="31_rheum_hcp_iva_U3"
+      tab3="32_rheum_hcp_iva_U3"
+   }}
+   <div class="content">
+      <a class="next-button orange show-invisible" data-target="32_rheum_hcp_iva_U3"></a>
+   <ul class="mmt-patients">
+      <li data-value="12" id="p1">Patient 1<br><span>38 years old, DM</span></li>
+      <li data-value="1">Patient 2<br><span>48 years old, DM</span></li>
+      <li data-value="39">Patient 3<br><span>28 years old, PM<sup> &sect;</sup></span></li>
+      <li data-value="23">Patient 4<br><span>59 years old, PM<sup> &sect;</sup></span></li>
+   </ul>
+   <ul class="mmt-patients">
+      <li data-value="30">Patient 5<br><span>75 years old, DM<sup> &sect;</sup></span></li>
+      <li data-value="4">Patient 6<br><span>53 years old, DM</span></li>
+      <li data-value="23" pat-age="48">Patient 7<br><span>54 years old, DM<sup> &sect;</sup></span></li>
+      <li data-value="20">Patient 8<br><span>51 years old, PM<sup> &sect;</sup></span></li>
+   </ul>
+   <ul class="mmt-patients">
+      <li data-value="7">Patient 9<br><span>45 years old, PM<sup> &sect;</sup></span></li>
+      <li data-value="11">Patient 10<br><span>64 years old, DM<sup> &sect;</sup></span></li>
+   </ul>
+   <div class="baseScore">Score = <span>138</span></div>
+   <div class="endScore">Score = <span>150</span><sup>&Dagger;</sup></div>
+   <div class="after-treat-btn orange fw-bold">After treatment with Acthar Gel</div>
+   <div id="counter"></div>
+   
+   <div class="study1" ></div>
+   <div class="study2" data-target="32_rheum_hcp_iva_U3"></div>
+   <div class="view-results-btn popup-open show-invisible" data-target="primary-endpoint"></div>
+
+   <div class="InactiveHeader_10"></div>
+      <div class="menuDropdown_10">
+         <div class="activeHeader_10"></div>
+         <a class="clickArea1_10" data-target="10_rheum_hcp_iva_U3"></a>
+         <a class="clickArea4_10" data-target="29_rheum_hcp_iva_U3"></a>
+      </div>
+   </div>
+
+   <div class="popups-container">
+		<div class="popup-overlay"></div>
+      {{>popup popupId="primary-endpoint" imgUrl="assets/images/mmt-results.png"}}
+   </div>
+   {{> references }}
+   {{> isi }}
+</main>
+
+<!-- build:js ../shared/scripts/main.js -->
+<!-- inject:js -->
+
+<!-- endinject -->
+<script src="../shared/scripts/jquery.js"></script>
+<script src="../shared/scripts/libs.js"></script>
+<script src="../shared/scripts/libs/veeva-library.js"></script>
+<script src="../shared/scripts/libs/veeva-utils.js"></script>
+<script src="../shared/scripts/menuHandling.js"></script>
+<script src="../shared/scripts/main.js"></script>
+<!-- endbuild -->
+
+<!-- build:js assets/scripts/slide.js -->
+<script src="assets/scripts/slide.js"></script>
+<script src="assets/scripts/study1.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

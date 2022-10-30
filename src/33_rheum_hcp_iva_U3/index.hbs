@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<title>veeva-slide</title>
+
+	<!-- build:css ../shared/styles/main.css -->
+	<!-- inject:css -->
+	<!-- endinject -->
+   <link rel="stylesheet" href="../shared/styles/main.css">
+   <!-- endbuild -->
+   <!-- build:css assets/styles/slide.css -->
+   <link rel="stylesheet" href="assets/styles/slide.css" />
+   <!-- endbuild -->
+</head>
+
+<body>
+<main id="rheum_hcp_iva_U3_33" class="slide">
+   {{> header
+      tab1="32_rheum_hcp_iva_U3"
+      tab2="33_rheum_hcp_iva_U3"
+      tab3="32_rheum_hcp_iva_U3"
+   }}
+   <div class="content">
+      <a class="next-button orange show-invisible" data-target="34_rheum_hcp_iva_U3"></a>
+      <ul class="mmt-patients">
+         <li data-value="1" id="p1">Patient 1<br><span>45 years old, DM</span></li>
+         <li data-value="2">Patient 2<br><span>25 years old, DM</span></li>
+         <li data-value="3">Patient 3<br><span>43 years old, DM</span></li>
+         <li data-value="4">Patient 4<br><span>55 years old, PM</span></li>
+         <li data-value="5">Patient 5<br><span>68 years old, PM</span></li>
+      </ul>
+      <div class="after-treat-btn orange fw-bold">After treatment with Acthar Gel</div>
+      <div id="oval-section">
+         <div class="bsoval liopsoas">
+            <span class="head"></span><br>
+            <b>Score = <span></span></b>
+            <span class="popover-box"></span>
+            
+         </div>
+         <div class="bsoval Quadriceps">
+            <span class="head"></span><br>
+            <b>Score = <span></span></b>
+            <span class="popover-box"></span>
+         </div>
+         <div class="esoval liopsoas">
+            <span class="head">Iliopsoas</span><br>
+            <b>Score = <span></span></b>
+            <span class="popover-box"></span>
+         </div>
+         <div class="esoval Quadriceps">
+            <span class="head">Quadriceps</span><br>
+            <b>Score = <span></span></b>
+            <span class="popover-box"></span>
+         </div>
+      </div>
+   
+   <div class="study1" data-target="30_rheum_hcp_iva_U3"></div>
+   <div class="study2" ></div>
+   <div class="view-results-btn popup-open show-invisible" data-target="primary-endpoint"></div>
+   
+  <div class="InactiveHeader_10"></div>
+      <div class="menuDropdown_10">
+         <div class="activeHeader_10"></div>
+         <a class="clickArea1_10" data-target="10_rheum_hcp_iva_U3"></a>
+         <a class="clickArea4_10" data-target="29_rheum_hcp_iva_U3"></a>
+      </div>
+   </div>
+
+   <div class="popups-container">
+		<div class="popup-overlay"></div>
+      {{>popup popupId="primary-endpoint" imgUrl="assets/images/results-popup.png"}}
+   </div>
+   {{!-- Popover box --}}
+   {{!-- <div class="popover-box">abcd</div> --}}
+   {{> references }}
+   {{> isi }}
+</main>
+
+<!-- build:js ../shared/scripts/main.js -->
+<!-- inject:js -->
+
+<!-- endinject -->
+<script src="../shared/scripts/jquery.js"></script>
+<script src="../shared/scripts/libs.js"></script>
+<script src="../shared/scripts/libs/veeva-library.js"></script>
+<script src="../shared/scripts/libs/veeva-utils.js"></script>
+<script src="../shared/scripts/menuHandling.js"></script>
+<script src="../shared/scripts/main.js"></script>
+<!-- endbuild -->
+
+<!-- build:js assets/scripts/slide.js -->
+<script src="assets/scripts/slide.js"></script>
+<script src="assets/scripts/study2.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

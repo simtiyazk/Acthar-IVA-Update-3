@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* SCSS Document */
+
+@import "../shared/styles/variables";
+@import "../shared/styles/mixins";
+
+
+/********** Slide Specific Styles *********/
+
+#rheum_hcp_iva_U3_34 {
+	.content {
+      background: url('../images/34.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+   }
+   .dm-pm{
+      top: 0px;
+   }
+   .SLEdummy{
+      margin: 0px;
+      position: relative;
+      width: 92px;
+      height: 36px;
+      background-color: #e9e9e9;
+      left: 0px;
+      border-radius: 5px;
+   }
+   .subClick2{
+      color: #279989;
+      font-family: '#{$font-Archivo-Bold}';
+   }
+
+   .references-content {
+      background: url('../images/03_Refs-Expanded.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+   }
+
+   .next-button {
+      position: absolute;
+      top: 550px;
+      right: 32px;
+   }
+
+   .sleHomelink1{
+      position: absolute;
+      top: 268px;
+      left: 50px;
+      width: 392px;
+      height: 67px;
+   }
+   .sleHomelink3{
+      position: absolute;
+      top: 395px;
+      left: 50px;
+      width: 391px;
+      height: 67px;
+   }
+}
+

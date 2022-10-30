@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* SCSS Document */
+
+@import "../shared/styles/variables";
+@import "../shared/styles/mixins";
+
+/********** Slide Specific Styles *********/
+
+#rheum_hcp_iva_U3_4 {
+   .content {
+      background: url("../images/04.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+      .popup-open {
+         display: block;
+         position: absolute;
+         width: 236px;
+         height: 34px;
+         &.pharmacodynamic {
+            top: 231px;
+            left: 604px;
+         }
+         &.moa-video {
+            top: 393px;
+            left: 50px;
+         }
+      }
+      .next-button {
+         position: absolute;
+         top: 549px;
+         right: 34px;
+      }
+   }
+   .popups-container .popup{
+      width: 91%;
+      top: 47%;
+   }
+   .play-overlay{
+      width: 0;
+    }
+   .circle_popup_link {
+      display: block;
+      position: absolute;
+      width: 77px;
+      height: 77px;
+      
+      &.t-cells {
+         top: 187px;
+         left: 571px;
+      }
+      &.b-cells {
+         top: 187px;
+         left: 688px;
+      }
+      &.cykotines {
+         top: 187px;
+         left: 804px;
+      }
+      &.macrophages {
+         top: 308px;
+         left: 572px;
+      }
+      &.d-cells {
+         top: 308px;
+         left: 689px;
+      }
+      &.osteoclasts {
+         top: 308px;
+         left: 804px;
+      }
+      &.monocytes {
+         top: 429px;
+         left: 572px;
+      }
+      &.fibroblasts {
+         top: 429px;
+         left: 689px;
+      }
+      &.epithelial {
+         top: 429px;
+         left: 810px;
+      }
+   }
+
+   #isiScroll {
+      height: 75%;
+      position: relative;
+      overflow: hidden;
+   }
+      .references-content {
+      background: url("../images/04_Refs-Expanded.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x: 6px;
+      width: 802px;
+      height: 980px;
+      top: 21px;
+      // .over-hidd{
+      //    position: relative;
+      //    height: 508px;
+      //    width: 700px;
+      //    left: 78px;
+      //    top: 73px;
+      //    overflow: scroll;
+      //    .scrollable-content{
+      //       background: url("../images/ref-scrollable.png");
+      //       background-repeat: no-repeat;
+      //       background-size: contain;
+      //       overflow: scroll;
+      //       width: 686px;
+      //       height: 886px;
+      //       left: 0px;
+      //       position: relative;
+      //       overflow-x: hidden;
+      //    }
+      // }
+      .over-hidd {
+         height: 508px;
+         width: 710px;
+         overflow-y: scroll;
+         left: 78px;
+         top: 73px;
+         position: relative;
+         overflow-x: hidden;
+     }
+     
+     .scrollable-content {
+         min-height: 948px;
+         background: url("../images/ref-scrollable.png");
+         background-repeat: no-repeat;
+         background-size: contain;
+         width: 686px;
+         left: 0px;
+         position: relative;
+         overflow-x: hidden;
+     }
+     #style-1::-webkit-scrollbar {
+      width: 7px;
+      background-color: #d8d8d8;
+      border-radius: 10px;
+      }
+      #style-1::-webkit-scrollbar-thumb {
+         background-color: #a7a7a7;
+         border-radius: 10px;
+     }
+     #style-1::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgb(216, 216, 216);
+      background-color: #d8d8d8;
+      border-radius: 10px;
+      }
+   }
+
+   .reference-overlay {
+      width: 266px;
+   }
+
+   .popups-container {
+      #pharmacodynamic {
+         width: 954px;
+         transform: none;
+         top: 63px;
+         left: -3px;
+      }
+   }
+   .module-close {
+      position: absolute;
+      width: 132px;
+      height: 59px;
+      top: 93px;
+      left: 835px;
+  }
+  .dm-pm,.sle,.symp-sarcoidosis,.ra,.dosing,.support{
+   top: 0px;
+}
+.potential-moa{
+   background-color: #e9e9e9;
+   color: #ff5000;
+   font-family: '#{$font-Archivo-Bold}';
+}
+}

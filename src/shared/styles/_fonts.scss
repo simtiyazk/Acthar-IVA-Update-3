@@ -1,0 +1,46 @@
+
+@import "variables";
+@import "mixins";
+
+
+/********** BASE FONT STYLES *********/
+
+$font-url: "../fonts";
+@font-face {
+    font-family: '#{$font-Archivo-Regular}';
+    src: url('#{$font-url}/#{$font-Archivo-Regular}.ttf') format('truetype'),
+}
+@font-face {
+    font-family: '#{$font-Archivo-Bold}';
+    src: url('#{$font-url}/#{$font-Archivo-Bold}.ttf') format('truetype'),
+}
+@font-face {
+    font-family: '#{$font-Archivo-Medium}';
+    src: url('#{$font-url}/#{$font-Archivo-Medium}.ttf') format('truetype'),
+}
+@font-face {
+    font-family: '#{$font-Archivo-SemiBold}';
+    src: url('#{$font-url}/#{$font-Archivo-SemiBold}.ttf') format('truetype'),
+}
+@font-face {
+    font-family: '#{$font-Archivo-BoldItalic}';
+    src: url('#{$font-url}/#{$font-Archivo-BoldItalic}.ttf') format('truetype'),
+}
+@font-face {
+    font-family: '#{$font-Archivo-Italic}';
+    src: url('#{$font-url}/#{$font-Archivo-Italic}.ttf') format('truetype'),
+}
+@font-face {
+    font-family: '#{$font-Archivo-MediumItalic}';
+    src: url('#{$font-url}/#{$font-Archivo-MediumItalic}.ttf') format('truetype'),
+}
+@font-face {
+    font-family: '#{$font-Archivo-SemiBoldItalic}';
+    src: url('#{$font-url}/#{$font-Archivo-SemiBoldItalic}.ttf') format('truetype'),
+}
+
+body {
+	font-family: '#{$font-Archivo-Regular}';
+	line-height: 1.25;
+	color: $white;
+}

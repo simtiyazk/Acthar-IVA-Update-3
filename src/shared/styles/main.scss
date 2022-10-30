@@ -1,0 +1,161 @@
+
+@import "variables";
+@import "mixins";
+@import "global";
+/* inject:scss */
+/* endinject */
+@import "normalize";
+@import "fonts";
+
+
+@import "modules/buttons";
+@import "modules/header";
+@import "modules/isi";
+@import "modules/menu";
+@import "modules/popup";
+@import "modules/references";
+@import "modules/tabs";
+@import "modules/submenu";
+
+
+/********** GLOBAL CLASS STYLES *********/
+
+
+.slide {
+   position:relative;
+   top:0;
+   left:0;
+   width:$sw;
+   height:$sh;
+	overflow:hidden;
+   background-color: $white;
+   .content {
+      width:$sw;
+      height:$sh;
+      display: block;
+   }
+	#scrollisi{
+		height: 400px;
+	}
+	//if using iscroll.js
+	.iscroll-wrapper,
+	.isi-wrapper,
+	.iwrapper,
+	.def-wrapper,
+	.def-wrapper-a,
+	.def-wrapper-a-phase-2,
+	.def-wrapper-a-chronic {
+		position: relative;
+		overflow:hidden;
+		.iscroll-content {
+			display:inline-block;
+			list-style:none;
+		}
+		//custom scrollbar styles
+		.iScrollVerticalScrollbar {
+			position:absolute;
+			top:40px; right:0px; bottom:2px;
+			width:13px;
+         // background: $color-gallery;
+         border-radius: 27px;
+			border:none;
+		}
+		//custom scrollbar thumb styles
+		.iScrollIndicator {
+			position:absolute;
+			top:2px; right:2px;
+			bottom: 2px;
+			width:9px;
+			border-radius:4px;
+         background-color: $light-blue;
+		}
+	}
+
+	//custom style of native scrollbar (webkit)
+	.scroll {
+		width:100%; height:150px;
+		overflow-y:scroll;
+
+		&::-webkit-scrollbar {
+		    width: 6px;
+		}
+		&::-webkit-scrollbar-track {
+			background-color:gray;
+			border-radius:3px;
+		}
+		&::-webkit-scrollbar-thumb {
+			background-color:black;
+			border-radius:3px;
+		}
+	}
+}
+
+*:focus {
+	outline: none;
+}
+
+/********** LAYOUT CLASS STYLES *********/
+
+/*layout helper classes*/
+.fr { float: right; }
+.fl { float: left; }
+.cf { @extend %clearfix; } //clear floats
+.u { text-decoration: underline; }
+.c { text-align: center; }
+.uc { text-transform: uppercase; }
+.lc { text-transform: lowercase; }
+.no-bottom { margin-bottom:0 !important; }
+.bottom10 { margin-bottom:10px !important; }
+.bold {font-weight: bold;}
+
+//Force fix
+#dse_icva_videoLibrary .video-footer .logos{
+	    margin: 40px 0 20px !important;
+}
+.symbol{
+	font-family: '#{$font-Archivo-Regular}';
+}
+
+.bulletp {
+	padding-left: 14px;
+	text-indent: -14px;
+	&::before {
+		content: "•";
+		color: #00a1e1;
+		padding-right: 4px;
+		position: relative;
+		top: 0px;
+	}
+}
+
+.next_button {
+	background-image: url('../images/next_button.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 156px;
+	height: 56px;
+	display: block;
+	position: absolute;
+	top: 702px;
+	left: 853px;
+	z-index: 10;
+
+	&__dark_purple {
+		background-image: url('../images/next_button_dark_purple.png');
+	}
+
+	&__light_green {
+		background-image: url('../images/next_button_light_green.png');
+	}
+
+	&__green {
+		background-image: url('../images/next_button_green.png');
+	}
+
+	&__dark_green {
+		background-image: url('../images/next_button_dark_green.png');
+	}
+	&__dark_blue {
+		background-image: url('../images/next_button_dark_blue.png');
+	}
+}

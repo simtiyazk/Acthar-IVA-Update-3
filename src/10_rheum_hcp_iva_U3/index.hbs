@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<title>veeva-slide</title>
+
+	<!-- build:css ../shared/styles/main.css -->
+	<!-- inject:css -->
+	<!-- endinject -->
+   <link rel="stylesheet" href="../shared/styles/main.css">
+   <!-- endbuild -->
+   <!-- build:css assets/styles/slide.css -->
+   <link rel="stylesheet" href="assets/styles/slide.css" />
+   <!-- endbuild -->
+</head>
+
+<body>
+<main id="rheum_hcp_iva_U3_10" class="slide">
+   {{> header
+      tab1="10_rheum_hcp_iva_U3"
+      tab2="13_rheum_hcp_iva_U3"
+      tab3="14_rheum_hcp_iva_U3"
+   }}
+   <div class="sub-menu"></div>
+   <div class="content">
+      <a class="csms-popup-btn popup-open show-invisible" data-target="csms"></a>
+      <a class="next-button orange show-invisible" data-target="11_rheum_hcp_iva_U3"></a>
+      <div class="InactiveHeader_10"></div>
+      <div class="menuDropdown_10">
+         <div class="activeHeader_10"></div>
+         <a class="clickArea1_10" data-target="10_rheum_hcp_iva_U3"></a>
+         <a class="clickArea4_10" data-target="29_rheum_hcp_iva_U3"></a>
+      </div>
+   </div>
+   {{> references }}
+   {{> isi }}
+
+   <div class="popups-container">
+		<div class="popup-overlay"></div>
+      {{>popup popupId="csms" imgUrl="assets/images/10_Popup-window.png"}}
+   </div>
+</main>
+
+<!-- build:js ../shared/scripts/main.js -->
+<!-- inject:js -->
+<!-- endinject -->
+<script src="../shared/scripts/jquery.js"></script>
+<script src="../shared/scripts/libs.js"></script>
+<script src="../shared/scripts/libs/veeva-library.js"></script>
+<script src="../shared/scripts/libs/veeva-utils.js"></script>
+<script src="../shared/scripts/menuHandling.js"></script>
+<script src="../shared/scripts/main.js"></script>
+<!-- endbuild -->
+
+<!-- build:js assets/scripts/slide.js -->
+<script src="assets/scripts/slide.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

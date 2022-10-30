@@ -1,0 +1,17 @@
+.next-button {
+   width: 116px;
+   height: 59px;
+   display: block;
+
+   &.white {
+      background: url('../../shared/images/next-button-white.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+   }
+
+   &.orange {
+      background: url('../../shared/images/next-button-orange.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+   }
+}
